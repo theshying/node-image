@@ -1,0 +1,212 @@
+[
+    {
+        "ios": {
+            "x1": {
+                "format": "png",
+                "width": 750,
+                "height": 1070,
+                "channels": 4,
+                "premultiplied": true,
+                "size": 247232,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/085ffde02f75b1133c4470278f7ac354@x1.png"
+            },
+            "x2": {
+                "format": "png",
+                "width": 1500,
+                "height": 2139,
+                "channels": 4,
+                "premultiplied": false,
+                "size": 670806,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/085ffde02f75b1133c4470278f7ac354@x2.png"
+            }
+        },
+        "android": {
+            "x1": {
+                "format": "webp",
+                "width": 750,
+                "height": 1070,
+                "channels": 4,
+                "premultiplied": true,
+                "size": 93178,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/085ffde02f75b1133c4470278f7ac354@x1.png"
+            },
+            "x2": {
+                "format": "webp",
+                "width": 750,
+                "height": 1070,
+                "channels": 4,
+                "premultiplied": true,
+                "size": 93178,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/085ffde02f75b1133c4470278f7ac354@x2.png"
+            }
+        }
+    },
+    {
+        "ios": {
+            "x1": {
+                "format": "png",
+                "width": 140,
+                "height": 140,
+                "channels": 4,
+                "premultiplied": true,
+                "size": 6710,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/3c48726faf044774826546138bc23255@x1.png"
+            },
+            "x2": {
+                "format": "png",
+                "width": 280,
+                "height": 280,
+                "channels": 4,
+                "premultiplied": false,
+                "size": 16774,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/3c48726faf044774826546138bc23255@x2.png"
+            }
+        },
+        "android": {
+            "x1": {
+                "format": "webp",
+                "width": 140,
+                "height": 140,
+                "channels": 4,
+                "premultiplied": true,
+                "size": 6532,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/3c48726faf044774826546138bc23255@x1.png"
+            },
+            "x2": {
+                "format": "webp",
+                "width": 140,
+                "height": 140,
+                "channels": 4,
+                "premultiplied": true,
+                "size": 6532,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/3c48726faf044774826546138bc23255@x2.png"
+            }
+        }
+    },
+    {
+        "ios": {
+            "x1": {
+                "format": "png",
+                "width": 516,
+                "height": 303,
+                "channels": 4,
+                "premultiplied": true,
+                "size": 45162,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/95c222590a7f34489f19853749d0c9bf@x1.png"
+            },
+            "x2": {
+                "format": "png",
+                "width": 1032,
+                "height": 606,
+                "channels": 4,
+                "premultiplied": false,
+                "size": 109895,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/95c222590a7f34489f19853749d0c9bf@x2.png"
+            }
+        },
+        "android": {
+            "x1": {
+                "format": "webp",
+                "width": 516,
+                "height": 303,
+                "channels": 4,
+                "premultiplied": true,
+                "size": 21644,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/95c222590a7f34489f19853749d0c9bf@x1.png"
+            },
+            "x2": {
+                "format": "webp",
+                "width": 516,
+                "height": 303,
+                "channels": 4,
+                "premultiplied": true,
+                "size": 21644,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/95c222590a7f34489f19853749d0c9bf@x2.png"
+            }
+        }
+    },
+    {
+        "ios": {
+            "x1": {
+                "format": "png",
+                "width": 33,
+                "height": 72,
+                "channels": 4,
+                "premultiplied": true,
+                "size": 1343,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/6f623145ab6de3179715cf7f3429c8a8@x1.png"
+            },
+            "x2": {
+                "format": "png",
+                "width": 67,
+                "height": 146,
+                "channels": 4,
+                "premultiplied": false,
+                "size": 2208,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/6f623145ab6de3179715cf7f3429c8a8@x2.png"
+            }
+        },
+        "android": {
+            "x1": {
+                "format": "webp",
+                "width": 33,
+                "height": 72,
+                "channels": 4,
+                "premultiplied": true,
+                "size": 1428,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/6f623145ab6de3179715cf7f3429c8a8@x1.png"
+            },
+            "x2": {
+                "format": "webp",
+                "width": 33,
+                "height": 72,
+                "channels": 4,
+                "premultiplied": true,
+                "size": 1428,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/6f623145ab6de3179715cf7f3429c8a8@x2.png"
+            }
+        }
+    },
+    {
+        "ios": {
+            "x1": {
+                "format": "png",
+                "width": 188,
+                "height": 180,
+                "channels": 4,
+                "premultiplied": true,
+                "size": 33188,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/b48998bea9a11c8fdb479e1e61e70048@x1.png"
+            },
+            "x2": {
+                "format": "png",
+                "width": 376,
+                "height": 359,
+                "channels": 4,
+                "premultiplied": false,
+                "size": 125509,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/b48998bea9a11c8fdb479e1e61e70048@x2.png"
+            }
+        },
+        "android": {
+            "x1": {
+                "format": "webp",
+                "width": 188,
+                "height": 180,
+                "channels": 4,
+                "premultiplied": true,
+                "size": 12178,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/b48998bea9a11c8fdb479e1e61e70048@x1.png"
+            },
+            "x2": {
+                "format": "webp",
+                "width": 188,
+                "height": 180,
+                "channels": 4,
+                "premultiplied": true,
+                "size": 12178,
+                "path": "/Users/shayxu/personal/node-image/temp/dist/b48998bea9a11c8fdb479e1e61e70048@x2.png"
+            }
+        }
+    }
+]

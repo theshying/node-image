@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!-- <div class="box" id="box">
+    <img src="../temp//dist/085ffde02f75b1133c4470278f7ac354@x1.png"  width="" alt="">
+    <img src="../temp/dist/085ffde02f75b1133c4470278f7ac354@x1.webp" alt="">
+    <img src="../temp/dist/085ffde02f75b1133c4470278f7ac354@x2.png" alt="">
+    <img src="../temp/dist//085ffde02f75b1133c4470278f7ac354@x2.webp" alt="">
+   </div> -->
+   <table border='1'  cellspacing =0  cellpadding =0>
+       <thead>
+           <tr>
+               <th>两原图png</th>
+               <th>一倍图png</th>
+               <th>两倍图webp</th>
+               <th>一倍图webp</th>
+           </tr>
+       </thead>
+       <tbody id="tbody">
+        <!-- <tr >
+            <td>dsd</td>
+            <td>dsd</td>
+            <td>dsd</td>
+            <td>dsd</td>
+        </tr> -->
+       </tbody>
+       
+   </table>
+</body>
+<style>
+    html,body{
+        margin: 0;
+        padding: 0;
+    }
+    .box{
+        flex-direction: 'row';
+    }
+    table{
+        border: 1px solid red;
+    }
+    td, th{
+        padding: 12px;
+        text-align: left;
+    }
+  
+</style>
+<script>
+    function formatSize(size) {
+        if(size < 1024) return `${size}b`
+        return `${parseInt(size / 1024 + '', 10)}kb`
+    }
+    function formatPercent(number) {
+        return `${parseInt(number * 100 + '', 10)}%`
+    }
+
+    fetch('./result.json').then(res => res.json()).then(data => {
+        const body = document.getElementById('tbody')
+        const trs = data.map(item => {
+            const size = item.x2.png.size;
+            return (
+                `
+                <tr>
+                    <td>
+                        size: ${formatSize(size)}
+                    </td>
+                    <td>
+                        size: ${formatSize(item.x1.png.size)}</br>
+                        reduce: ${formatPercent((size - item.x1.png.size) / size ) }
+                    </td>
+                    <td>
+                        size: ${formatSize(item.x2.webp.size)}</br>
+                        reduce: ${formatPercent((size - item.x2.webp.size) / size ) }
+                    </td>
+                    <td>
+                        size: ${formatSize(item.x1.webp.size)}</br>
+                        reduce: ${formatPercent((size - item.x1.webp.size) / size ) }
+
+                    </td>
+                </tr>
+                `
+            )
+        }).join('')
+        body.innerHTML = trs;
+    })
+</script>
+</html>
